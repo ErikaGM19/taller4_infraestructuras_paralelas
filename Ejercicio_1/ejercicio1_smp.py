@@ -24,6 +24,7 @@ def main():
     bloques = list(dividir_bloques(N, BLOQUE))
     print(f"Matriz {N}x{N}, bloques de {BLOQUE}x{BLOQUE}\n")
 
+
     inicio = time.time()
 
     # 3) Procesa cada bloque con hilos
