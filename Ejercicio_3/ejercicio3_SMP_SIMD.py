@@ -11,7 +11,7 @@ random.seed(42)
 def generar_matriz(filas, columnas):
     return [[random.randint(0, 9) for _ in range(columnas)] for _ in range(filas)]
 
-# SE CREA UNA FUNCIÓN PARA REALIZAR LA SUMA SENCUENCIAL DE LOS VALORES DE LA MATRIZ:
+# SE CREA UNA FUNCIÓN PARA REALIZAR LA SUMA NUMPY DE LOS VALORES DE LA MATRIZ:
 def suma_bloque_filas(matriz):
     suma = numpy.sum(matriz, axis=1)
     return suma
